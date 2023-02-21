@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: cornflowerblue;
+    min-height: 100vh;
+    border:10px solid chocolate; /*iska explanation dekhna hai */
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;/*do item ko side by side rkne k liye*/
+    justify-content: space-between;/*side by side content k beech m space dene k liye*/
+    align-items: flex-end;/*content ko bottom right m shift krne k liye*/
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(230, 68, 28);
+    text-transform: uppercase;
+}
+.top_section h4{
+    font-size: 30px;
+    /* text-align: end; */
+}
+.image_container,img{
+    height: 320px;
+    width: 300px;
+}
+/* circle shape image k liye */
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.biography_section{
+    margin-top: 50px;
+}
+.biography_section ul{
+    margin-left: 50px;
+}
+.biography_section li{
+    margin-bottom: 10px;
+}
+footer{
+    margin: 50px 0;
+}
+footer p{
+    text-align: end;
+}
